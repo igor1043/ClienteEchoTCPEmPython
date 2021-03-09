@@ -1,5 +1,7 @@
 
-
+# Author:  Igor Vinicius Freitas de Souza
+# GitHub: https://github.com/igor1043
+# E-mail: igorviniciusfreitasouza@gmail.com
 import socket                                                     # Biblioteca para aplicacao em rede
 cliente_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # cria um socket TCP/IP (SOCK_STREAM)
 end_servidor = ('localhost', 10000)                               # end_servidor recebe endereco e porta do servidor
